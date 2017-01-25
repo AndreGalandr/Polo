@@ -1,0 +1,19 @@
+body {
+	background: #FFF;
+}
+
+.navbar-header {
+	height: 115px;
+}
+
+.nav {
+	padding-top: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+	.logo_min {
+		/* background: url(images/logo_min.png) no-repeat; */
+		width: 80%;
+	}
+}
+
