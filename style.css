@@ -18,9 +18,15 @@ img {
 	height: auto;
 }
 
+/* Стили для header */
+
 /*nav*/
 .navbar-header {
 	height: 80px;
+}
+
+.navbar {
+	margin-bottom: 0;
 }
 
 .nav {
@@ -36,6 +42,11 @@ img {
 	line-height: 14px;
 	text-align: center;
 	/* text-transform: uppercase; */
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    /* background: #786b59; Цвет фона под ссылкой  */
+    color: #0096c1
 }
 
 .menu-span {
@@ -68,3 +79,16 @@ img {
 	}
 } */
 
+/* Стили для slider */
+
+.slider_bg {
+	height: 342px;
+	background-image: linear-gradient(to top, #333 0%, #151515 100%);
+	/* width: 1600px; */
+	/* margin: 0; */
+}
+
+/* .pad_slide {
+	padding-left: 0;
+	padding-right: 0;
+} */
