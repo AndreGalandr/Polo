@@ -14,12 +14,12 @@ body {
 }
 
 img {
-	max-width: 80%;
+	max-width: 100%;
 	height: auto;
 }
 
 hr {
-	width: 940px;
+	width: 100%;
 	border: solid 3px #f7f7f7;
 }
 
@@ -87,7 +87,9 @@ hr {
 /* Стили для slider */
 
 .slider_bg {
-	height: 342px;
+	/* height: 342px; */
+	/* height: 342px; */
+
 	background-image: linear-gradient(to top, #333 0%, #151515 100%);
 	/* width: 1600px; */
 	/* margin: 0; */
