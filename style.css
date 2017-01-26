@@ -14,7 +14,7 @@ body {
 }
 
 img {
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 
@@ -92,3 +92,25 @@ img {
 	padding-left: 0;
 	padding-right: 0;
 } */
+
+	/* Style for block_images */
+	
+.panel_p {
+	text-align: justify;
+	padding: 20px;
+}
+
+/* .panel_h {
+	text-align: left;
+} */
+
+	/* Style for footer */
+	
+.footer {
+	height: 188px;
+	background: #333333;
+}
+
+.power {
+	color: #3895EC;
+}
