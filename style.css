@@ -18,6 +18,11 @@ img {
 	height: auto;
 }
 
+hr {
+	width: 940px;
+	border: solid 3px #f7f7f7;
+}
+
 /* Стили для header */
 
 /*nav*/
@@ -97,7 +102,16 @@ img {
 	
 .panel_p {
 	text-align: justify;
-	padding: 20px;
+	padding: 20px 20px 0;
+}
+
+.btn.btn-default {
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.glyphicon.glyphicon-arrow-right {
+	margin-left: 20px;
 }
 
 /* .panel_h {
@@ -109,8 +123,13 @@ img {
 .footer {
 	height: 188px;
 	background: #333333;
+	border-top: outset 10px #4c4c4c;
 }
 
 .power {
 	color: #3895EC;
+}
+
+.n_foot {
+	padding-top: 0;
 }
