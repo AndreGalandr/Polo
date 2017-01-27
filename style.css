@@ -23,6 +23,11 @@ hr {
 	border: solid 3px #f7f7f7;
 }
 
+.dash {
+  border: 0;
+  border-bottom: 1px dashed #000;
+} 
+
 /* Стили для header */
 
 /*nav*/
@@ -104,7 +109,7 @@ hr {
 	
 .panel_p {
 	text-align: justify;
-	padding: 20px 20px 0;
+	/* padding: 20px 20px 0; */
 }
 
 .btn.btn-default {
@@ -119,6 +124,13 @@ hr {
 /* .panel_h {
 	text-align: left;
 } */
+
+/* Social Connection */
+
+/* .social_img {
+	width: 15%;
+}
+ */
 
 	/* Style for footer */
 	
