@@ -51,6 +51,7 @@ hr {
 .dash {
   border: 0;
   border-bottom: 1px dashed #ccc;
+  padding: 1px;
 } 
 
 /* Стили для header */
@@ -170,7 +171,6 @@ hr {
 
 .thumbnail {
 	padding: 8px;
-	height: 450px;
 } 
 
 .form-group input {
@@ -189,13 +189,20 @@ textarea.form-control {
 	/* Style for footer */
 	
 .footer {
-	height: 188px;
-	background: #333333;
+	/* height: 188px; */
+	background: rgb(51, 51, 51);
+	border-top: outset 5px #4c4c4c;
+}
+
+.navbar .navbar-default .footer {
+	/* height: 188px; */
+	background: rgb(51, 51, 51);
 	border-top: outset 10px #4c4c4c;
 }
 
 .power {
 	color: #3895EC;
+	margin-top: 15px;
 }
 
 .n_foot {
