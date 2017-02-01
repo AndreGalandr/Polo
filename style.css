@@ -16,16 +16,41 @@ body {
 img {
 	max-width: 100%;
 	height: auto;
+	display: block;
 }
+
+/* input{
+	outline: none;
+} */
 
 hr {
 	width: 100%;
 	border: solid 3px #f7f7f7;
 }
 
+/* .equal, .equal > div[class*='col-md-4'] {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 0 auto;
+} */
+
+/* .vcenter {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+}
+ */
+/*  .row-flex {
+    display: flex;
+    flex-flow: row wrap;
+} */
+
 .dash {
   border: 0;
-  border-bottom: 1px dashed #000;
+  border-bottom: 1px dashed #ccc;
 } 
 
 /* Стили для header */
@@ -109,7 +134,11 @@ hr {
 	
 .panel_p {
 	text-align: justify;
-	/* padding: 20px 20px 0; */
+	
+}
+
+.panel_p.text-left {
+	/* padding-top: 8px; */
 }
 
 .btn.btn-default {
@@ -121,6 +150,10 @@ hr {
 	margin-left: 20px;
 }
 
+.panel {
+	padding: 10px;
+}
+
 /* .panel_h {
 	text-align: left;
 } */
@@ -129,8 +162,29 @@ hr {
 
 /* .social_img {
 	width: 15%;
+} */
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	display: inline-block;
 }
- */
+
+.thumbnail {
+	padding: 8px;
+	height: 450px;
+} 
+
+.form-group input {
+	margin-bottom: 15px;
+	width: none;
+}
+
+.form-control {
+	resize: none;
+}
+
+textarea.form-control {
+	height: 188px;
+}
 
 	/* Style for footer */
 	
