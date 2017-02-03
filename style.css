@@ -19,15 +19,14 @@ img {
 	display: block;
 }
 
-/* input{
-	outline: none;
-} */
-
 hr {
 	width: 100%;
 	border: solid 3px #f7f7f7;
 }
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	border-top: none; 
+}
 /* .equal, .equal > div[class*='col-'] {
     display: -webkit-box;
     display: -moz-box;
@@ -52,6 +51,7 @@ hr {
   border: 0;
   border-bottom: 1px dashed #ccc;
   padding: 1px;
+  margin: 10px 0;
 } 
 
 /* Стили для header */
@@ -81,8 +81,7 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    /* background: #786b59; Цвет фона под ссылкой  */
-    color: #0096c1
+  color: #0096c1
 }
 
 .menu-span {
@@ -119,26 +118,6 @@ hr {
 
 .slider_bg {
 	background-image: linear-gradient(to top, #333 0%, #151515 100%);
-	/* height: 342px; */
-	/* height: 342px; */
-	/* width: 1600px; */
-	/* margin: 0; */
-}
-
-/* .pad_slide {
-	padding-left: 0;
-	padding-right: 0;
-} */
-
-	/* Style for block_images */
-	
-.panel_p {
-	text-align: justify;
-	
-}
-
-.panel_p.text-left {
-	/* padding-top: 8px; */
 }
 
 .btn.btn-default {
@@ -154,16 +133,6 @@ hr {
 	padding: 10px;
 }
 
-/* .panel_h {
-	text-align: left;
-} */
-
-/* Social Connection */
-
-/* .social_img {
-	width: 15%;
-} */
-
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
 	display: inline-block;
 }
@@ -172,29 +141,50 @@ hr {
 	padding: 8px;
 } 
 
+/* 
+#page-wrap > .col-md-4 { 
+		display: block; 
+	float: left; 
+		margin: 0 10px 10px 0; 
+		background: #ccc; 
+		width: 200px;  
+	}
+*/
+
+.form-group {
+  margin-bottom: 0;
+}
+
+.form-group .form-ctrl {
+	margin-bottom: 10px;
+}
+
 .form-group input {
-	margin-bottom: 15px;
-	width: none;
+	margin-bottom: 28px;
 }
 
 .form-control {
 	resize: none;
 }
+textarea.form-control {
+  margin-bottom: 11px;
+}
+.panel_img {
+	max-width: 125%;
+}
 
-/* textarea.form-control {
-	height: 188px;
-} */
+.panel_p_new {
+	margin: 0;
+}
 
 	/* Style for footer */
 	
 .footer {
-	/* height: 188px; */
 	background: rgb(51, 51, 51);
 	border-top: outset 5px #4c4c4c;
 }
 
 .navbar .navbar-default .footer {
-	/* height: 188px; */
 	background: rgb(51, 51, 51);
 	border-top: outset 10px #4c4c4c;
 }
