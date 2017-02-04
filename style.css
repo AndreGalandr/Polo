@@ -99,21 +99,6 @@ hr {
 	width: 80%; 
 } 
 
-/* 
-@media only screen and (max-width : 1200px) {
-.logo_min {
-	width: 60%; 
-	margin-right: 0;
-	}
-}
-	
-@media only screen and (max-width : 992px) {
-.logo_min {
-	width: 50%; 
-	margin-right: 0;
-	}
-} */
-
 /* Стили для slider */
 
 .slider_bg {
@@ -169,7 +154,7 @@ hr {
 textarea.form-control {
   margin-bottom: 11px;
 }
-.panel_img {
+.thumbnail .panel_img {
 	max-width: 125%;
 }
 
@@ -197,3 +182,72 @@ textarea.form-control {
 .n_foot {
 	padding-top: 0;
 }
+
+
+
+@media only screen and (max-width : 1199px) {
+/* .logo_min {
+	width: 60%; 
+	margin-right: 0;
+	} */
+	.form-group .form-ctrl {
+    margin-bottom: 4px;
+	}
+	.soc {
+    max-width: 18% !important;
+    padding-bottom: 15px;
+	}
+	.thumb_cont {
+		padding-bottom: 44px;
+	}
+	.thumbnail .panel_img {
+    max-width: 170%;
+	}
+	.panel_p_new {
+		font-size: 13px;
+	} 
+	
+}
+	
+@media only screen and (max-width : 991px) {
+/* .logo_min {
+	width: 50%; 
+	margin-right: 0;
+	} */
+	.col-centered {
+		float: none;
+		margin: auto;
+		z-index: -1;
+	}
+	.panel_p_new {
+		font-size: 14px;
+	} 
+	.soc {
+    padding-bottom: 0;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.navbar-default .navbar-nav>li>a {
+		text-align: left;
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+		background: rgba(204, 204, 204, 0.45);
+		color: #333;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border: 0;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.logo_min {
+	/* width: 50%;  */
+	margin-right: 0;
+	}
+}
+
+
