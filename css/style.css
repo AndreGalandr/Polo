@@ -1,0 +1,214 @@
+@font-face {
+	font-family: "Ubuntu"; /* Имя шрифта */
+	src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Ubuntu-Light"; /* Имя шрифта */
+	src: url(../fonts/Ubuntu-Light.ttf); /*Путь к файлу со шрифтом */
+	/* src: url(fonts/Tahoma-Regular.ttf); /*Путь к файлу со шрифтом */ */
+}
+
+body {
+	background: #FFF;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+hr {
+	width: 100%;
+	border: solid 3px #f7f7f7;
+}
+
+.dash {
+	border: 0;
+	border-bottom: 1px dashed #ccc;
+	padding: 1px;
+	margin: 10px 0;
+} 
+
+/* Стили для header */
+
+/*nav*/
+.navbar-header {
+	height: 80px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.nav {
+	padding-top: 20px;
+}
+
+.trans {
+	color: #666;
+	font-family: Ubuntu;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #0096c1
+}
+
+.menu-span {
+	color: #b7b7b7;
+	font-family: Ubuntu-Light;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 14px; 
+	text-transform: capitalize;
+}
+
+.logo_min {
+	width: 80%; 
+} 
+
+/* Стили для slider */
+
+.slider_bg {
+	background-image: linear-gradient(to top, #333 0%, #151515 100%);
+}
+
+.btn.btn-default {
+	margin-bottom: 20px;
+	outline: none;
+}
+
+.btn.btn-default.bt {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.glyphicon.glyphicon-arrow-right {
+	margin-left: 20px;
+}
+
+.panel {
+	padding: 10px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+	display: inline-block;
+}
+
+.thumbnail {
+	padding: 8px;
+} 
+
+.form-group {
+	margin-bottom: 0;
+}
+
+.form-group .form-ctrl {
+	margin-bottom: 10px;
+}
+
+.form-group input {
+	margin-bottom: 28px;
+}
+
+.form-control {
+	resize: none;
+}
+textarea.form-control {
+	margin-bottom: 11px;
+}
+.thumbnail .panel_img {
+	max-width: 125%;
+}
+
+.panel_p_new {
+	margin: 0;
+}
+
+/* Style for footer */
+
+.footer {
+	background: rgb(51, 51, 51);
+	border-top: outset 5px #4c4c4c;
+}
+
+.navbar .navbar-default .footer {
+	background: rgb(51, 51, 51);
+	border-top: outset 10px #4c4c4c;
+}
+
+.power {
+	color: #3895EC;
+	margin-top: 15px;
+}
+
+.n_foot {
+	padding-top: 0;
+}
+
+@media only screen and (max-width : 1199px) {
+	.form-group .form-ctrl {
+		margin-bottom: 4px;
+	}
+	.soc {
+		max-width: 18% !important;
+		padding-bottom: 15px;
+	}
+	textarea.form-control {
+		margin-bottom: 47px;
+	}
+
+		.thumbnail .panel_img {
+			max-width: 170%;
+		}
+		.panel_p_new {
+			font-size: 13px;
+		} 
+
+	}
+	
+	@media only screen and (max-width : 991px) {
+		.col-centered {
+			float: none;
+			margin: auto;
+			z-index: -1;
+		}
+		.panel_p_new {
+			font-size: 14px;
+		} 
+		.soc {
+			padding-bottom: 0;
+		}
+		.form-group .form-ctrl {
+			margin-bottom: 11px;
+		}
+	}
+
+	@media only screen and (max-width : 767px) {
+		.navbar-default .navbar-nav>li>a {
+			text-align: left;
+		}
+		.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+			background: rgba(204, 204, 204, 0.45);
+			color: #333;
+		}
+	}
+
+	@media only screen and (max-width : 767px) {
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+			border: 0;
+		}
+	}
+
+	@media only screen and (max-width : 480px) {
+		.logo_min {
+			margin-right: 0;
+		}
+	}
+
+
